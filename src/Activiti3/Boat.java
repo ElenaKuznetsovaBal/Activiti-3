@@ -10,7 +10,7 @@ public final class Boat extends WaterVehicle {
 
     @Override
     public void getInfo() {
-        System.out.println("\n=== ЛОДКА ===");
+        System.out.println("\n ЛОДКА");
         System.out.println("Марка: " + brand);
         System.out.println("Модель: " + model);
         System.out.println("Год: " + year);
@@ -19,12 +19,12 @@ public final class Boat extends WaterVehicle {
         System.out.println("Вместимость: " + passengerCapacity + " человек");
         if (engine != null) {
             System.out.println("Двигатель: " + engine.getPower() + " л.с., " +
-                    engine.getFuelType().getDescription());
+                    engine.getFuel().getDescription());
         }
     }
 
     public void row() {
-        System.out.println("Лодка плывет на веслах");
+        System.out.println("Лодка идёт на веслах");
     }
 }
 
