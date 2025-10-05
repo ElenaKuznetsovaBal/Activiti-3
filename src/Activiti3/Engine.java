@@ -17,6 +17,7 @@ public class Engine {
             System.out.println("Двигатель запустился (" + fuel.getDescription() + ", " + power + " л.с.)");
         }
     }
+
     public void stop() {
         if (isRunning) {
             isRunning = false;
@@ -35,3 +36,4 @@ public class Engine {
     public Fuel getFuel() {
         return fuel;
     }
+}
