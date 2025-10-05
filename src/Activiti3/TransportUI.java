@@ -101,7 +101,7 @@ public class TransportUI {
         }
     }
     private static void demonstrateSpecialFeatures(List<Vehicle> vehicles) {
-        System.out.println("\n СПЕЦИАЛЬНЫЕ ВОЗМОЖНОСТИ ");
+        System.out.println("\n СПЕЦИАЛЬНЫЕ ВОЗМОЖНОСТИ ТЕХНИЧЕСКИХ СРЕДСТВ ");
         for (Vehicle vehicle : vehicles) {
             if (vehicle instanceof Car car) {
                 car.honk();
