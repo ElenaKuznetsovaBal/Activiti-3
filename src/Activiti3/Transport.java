@@ -1,7 +1,5 @@
 package Activiti3;
 
-package Activiti3;
-
 public sealed class Transport extends Vehicle permits LandVehicle, AirVehicle, WaterVehicle {
 
     public Transport(String brand, String model, int year, Engine engine) {
